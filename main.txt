@@ -1,0 +1,26 @@
+▷ git status
+--it is used to check whether the current directory is a git repository or not.
+
+▷ git init
+--it is used to create or to define the currently opened path as git repository in Git Bash.
+
+▷ git add --add
+--it is used to add all the available files of the current path to track there changes.
+
+▷ git status
+--again use it to check whether all files are tracking properly or not
+
+▷ git commit -m "Initial commit"
+--it is used to commit the files to the repository.
+
+▷ git log
+--it is used to log all the commits made.
+
+▷ q
+-- it is used to exit the git logs viewing screen. when sometimes the Git Bash console gets laggy.
+
+▷ git add main.txt
+--it is used to commit a single file and push it to staging area.
+
+▷ rm -rf .git
+--it is used to delete the current repository and deletes the logs,commits. Use it only when you want to delete the repo.
