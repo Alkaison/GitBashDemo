@@ -24,3 +24,8 @@
 
 ▷ rm -rf .git
 --it is used to delete the current repository and deletes the logs,commits. Use it only when you want to delete the repo.
+
+▷ touch error.log
+--it is used to create a new file 'touch' command.
+
+▷ 
