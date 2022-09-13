@@ -63,3 +63,22 @@
 
 ▷ git log --pretty=oneline
 --it is used to view all the commit changes in 1 line.
+
+▷ git log --pretty=short
+--it is used to view all the commit changes in short & pretty way.
+
+▷ git log --pretty=full
+--it is used to view all the commit changes with commit & author name.
+
+▷ git log --since=2.days
+▷ git log --since=2.weeks
+▷ git log --since=2.months
+▷ git log --since=2.years
+--it is used to view the commits of last 2 days, weeks, months, years.
+
+▷ git log --pretty=format:"Enter format here"
+--it is used to print the log in specific format and to understand the commits. (https://git-scm.com/docs/pretty-formats).
+--All the formats are listed on the link for easy understanding.
+
+▷ git commit --amend
+--it is used to edit the last commit message and commit the current staged files.
