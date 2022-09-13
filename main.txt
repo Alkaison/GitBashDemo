@@ -36,3 +36,6 @@
 
 ▷ touch .gitignore
 --it is used to create the file gitignore to ignore tracking of unwanted files or folder.
+
+▷ git commit -a -m "Direct Commit Command"
+--it is used to commit the files directly which are modified, it doesn't commits files which are untracked.
