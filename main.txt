@@ -45,3 +45,6 @@
 
 ▷ git mv first.txt first_renamed.txt
 --it is used to rename a file from repository.
+
+▷ git rm --cached first.txt
+--it is used when a file is added into gitignore but still 'git status' is tracking its changes. Its used to stop tracking of the file.
