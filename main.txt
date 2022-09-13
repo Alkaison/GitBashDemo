@@ -48,3 +48,6 @@
 
 ▷ git rm --cached first.txt
 --it is used when a file is added into gitignore but still 'git status' is tracking its changes. Its used to stop tracking of the file.
+
+▷ git clone <URL> <NAME>
+--it is used to clone a repository from github. (NAME - is optional).
