@@ -51,3 +51,15 @@
 
 ▷ git clone <URL> <NAME>
 --it is used to clone a repository from github. (NAME - is optional).
+
+▷ git log -p
+--it is used to view what changes are made with the commits (proper changed lines context).
+
+▷ git log -p -3
+--it is used to view last 3 commits with there proper changes in the commits like previous cmd.
+
+▷ git log --stat
+--it is used to view the commit changes in summaries/short way.
+
+▷ git log --pretty=oneline
+--it is used to view all the commit changes in 1 line.
