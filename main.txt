@@ -28,4 +28,11 @@
 ▷ touch error.log
 --it is used to create a new file 'touch' command.
 
-▷ 
+▷ git diff
+--it is used to check the difference between the files in staging area and modified.
+
+▷ git diff --staged
+--it is used to check the changes made in last commit.
+
+▷ touch .gitignore
+--it is used to create the file gitignore to ignore tracking of unwanted files or folder.
