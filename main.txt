@@ -39,3 +39,9 @@
 
 ▷ git commit -a -m "Direct Commit Command"
 --it is used to commit the files directly which are modified, it doesn't commits files which are untracked.
+
+▷ git rm first.txt
+--it is used to remove/delete file from repository.
+
+▷ git mv first.txt first_renamed.txt
+--it is used to rename a file from repository.
