@@ -82,3 +82,12 @@
 
 ▷ git commit --amend
 --it is used to edit the last commit message and commit the current staged files.
+
+▷ git restore --staged first.txt
+--it is used to unstage your files from staging area.
+
+▷ git checkout -- first.txt
+--it is used to restore the file from last commit in case you missed something wrong with current file.
+
+▷ git checkout -f
+--it is used to delete current working repository and restore all the files from last commit.
