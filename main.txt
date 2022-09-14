@@ -91,3 +91,12 @@
 
 ▷ git checkout -f
 --it is used to delete current working repository and restore all the files from last commit.
+
+▷ git remote add origin <URL from Github>
+--it is used to connect/add new github repository with git and existing files on your system.
+
+▷ git remote 
+--it is used to list all remote origins.
+
+▷ git remote -v
+--it is used to list all remotes with there links and functionality.
