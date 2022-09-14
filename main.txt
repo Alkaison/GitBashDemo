@@ -1,6 +1,18 @@
 ▷ git status
 --it is used to check whether the current directory is a git repository or not.
 
+▷ git config --global user.name "Alvin J. Alexander"
+--it is used to set username of the user in Git Bash.
+
+▷ git config --global user.email example@mail.com
+--it is used to set Email Address of the user in Git Bash.
+
+▷ git config user.name
+--it is used to view the Username of the user in Git Bash.
+
+▷ git config user.email
+--it is used to view the Email address of the user in Git Bash.
+
 ▷ git init
 --it is used to create or to define the currently opened path as git repository in Git Bash.
 
@@ -125,3 +137,10 @@
 --it is used to push the files on the new github repository.
 
 ▷▷▷ Ended configuration part for GitBash & GitHub ▷▷▷
+
+▷ git config --global alias.st status
+--it is used to set alias for git commands. (here we have set alias for 'Git Status' as 'Git st').
+
+▷ git config --global alias.unstage 'restore --staged --'
+--it is used to set alias of a multiple word command. (-- this sign is used in alias to replace the file name which you will enter while using alias).
+--Example: "git unstage text.txt" -->> this will set the file name "test.txt" at the place of (--) this sign in alias as "git restore --staged test.txt".
