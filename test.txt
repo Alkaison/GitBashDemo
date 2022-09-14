@@ -1,0 +1,17 @@
+//kuch nahi mila toh C program hii paste kardiya 😂🤣
+#include<stdio.h>
+
+int main(){
+
+    int width, height, area;
+    printf("Please Enter width: ");
+    scanf("%d",&width);
+
+    printf("Please Enter height: ");
+    scanf("%d",&height);
+
+    area = width * height;
+    printf("Area of Rectangle: %d",area);
+
+    return 0;
+}
