@@ -100,3 +100,26 @@
 
 ▷ git remote -v
 --it is used to list all remotes with there links and functionality.
+
+▷▷▷ Github SSH Key connection between Git Bash & Github repository ▷▷▷
+
+▷ ls -al ~/.ss
+--it is used to check if theres existing SSH Keys on the system.
+
+▷ ssh-keygen -t ed25519 -C "your_email@example.com"
+--it is used to generate new SSH Keys on the system & press ENTER till its done.
+
+▷ eval "$(ssh-agent -s)"
+--it is used to check pid of the SSH Keys.
+
+▷ ssh-add ~/.ssh/id_ed25519
+--it is used to add the SSH Keys to the repository on your personal system. (Make sure the Git Bash is opened in the working repository).
+
+▷ tail ~/.ssh/id_ed25519.pub
+--it is used to view the SSH Keys on terminal and copy it.
+
+▷ git branch -M main
+--it is used to define the current working directory as main branch directory.
+
+▷ git push -u origin main
+--it is used to push the files on the new github repository.
