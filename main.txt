@@ -107,7 +107,7 @@
 --it is used to check if theres existing SSH Keys on the system.
 
 ▷ ssh-keygen -t ed25519 -C "your_email@example.com"
---it is used to generate new SSH Keys on the system & press ENTER till its done.
+--it is used to generate new SSH Keys on the system & press ENTER till its done. (Change the email address with verified email on github).
 
 ▷ eval "$(ssh-agent -s)"
 --it is used to check pid of the SSH Keys.
@@ -123,3 +123,5 @@
 
 ▷ git push -u origin main
 --it is used to push the files on the new github repository.
+
+▷▷▷ Ended configuration part for GitBash & GitHub ▷▷▷
