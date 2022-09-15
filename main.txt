@@ -96,7 +96,7 @@
 --it is used to edit the last commit message and commit the current staged files.
 
 ▷ git restore --staged first.txt
---it is used to unstage your files from staging area.
+--it is used to unstage your files from staging area. (it will discard all your changes, so use it carefully).
 
 ▷ git checkout -- first.txt
 --it is used to restore the file from last commit in case you missed something wrong with current file.
@@ -144,3 +144,12 @@
 ▷ git config --global alias.unstage 'restore --staged --'
 --it is used to set alias of a multiple word command. (-- this sign is used in alias to replace the file name which you will enter while using alias).
 --Example: "git unstage text.txt" -->> this will set the file name "test.txt" at the place of (--) this sign in alias as "git restore --staged test.txt".
+
+▷ git checkout -b develop
+--it is used to make a new branch and start working parallely in it.
+
+▷ git branch
+--it is used to view list of all available branches in repository.
+
+▷ git checkout master
+--it is used to change branch from develop to master.
