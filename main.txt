@@ -175,3 +175,6 @@
 
 ▷ git push -d origin develop
 --it is used to delete branch from remote repository (github).
+--use "git push -D origin develop" to delete the branch which is not merged yet & with no errrors.
+
+▷▷▷ Complete Git & GitBash Commands list. Full GitBash Course Done ✅ ▷▷▷
