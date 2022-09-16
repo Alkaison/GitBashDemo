@@ -153,3 +153,6 @@
 
 ▷ git checkout master
 --it is used to change branch from develop to master.
+
+▷ git push -u origin develop
+--it is used to push develop branch files to github repository.
