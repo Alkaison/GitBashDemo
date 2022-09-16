@@ -159,3 +159,16 @@
 
 ▷ git merge develop --(be in origin/main branch to run this command)
 --it is used to merge develop with main branch & final results with be seen in main branch.
+
+▷ git branch -v 
+--it is used to view the branches name and there last commit messages.
+
+▷ git branch --merged
+--it is used to view the branches which are already merged.
+
+▷ git branch --no-merged
+--it is used to view the branches which are not merged yet.
+
+▷ git branch -d develop
+--it is used to delete the branch and its files. (it gives warning if the branch is not merged yet).
+--use "git branch -D develop" to delete the branch which is not merged yet & with no errrors.
