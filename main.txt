@@ -156,3 +156,6 @@
 
 ▷ git push -u origin develop
 --it is used to push develop branch files to github repository.
+
+▷ git merge develop --(be in origin/main branch to run this command)
+--it is used to merge develop with main branch & final results with be seen in main branch.
