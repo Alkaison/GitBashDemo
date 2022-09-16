@@ -172,3 +172,6 @@
 ▷ git branch -d develop
 --it is used to delete the branch and its files. (it gives warning if the branch is not merged yet).
 --use "git branch -D develop" to delete the branch which is not merged yet & with no errrors.
+
+▷ git push -d origin develop
+--it is used to delete branch from remote repository (github).
